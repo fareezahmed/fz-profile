@@ -1,0 +1,172 @@
+@media only screen and (max-width:740px){
+	.idendityMe{
+		display: inline;
+	}
+
+	.idendity{
+		display: none;	
+	}
+
+	.protart{
+		width:80% !important;
+		margin:0 auto;
+	}
+
+	.artContainer{
+		margin-top: 30px !important;
+		margin-left: 0;
+	}
+}
+
+
+@media only screen and (max-width:990px){
+	.artContainer{
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+}
+
+@media only screen and (max-width:700px){
+
+	.protart{
+		width:80% !important;
+		margin:0 auto;
+	}
+
+	footer{
+		height: 55px;
+	}
+
+	.idendityMe{
+		display: inline;
+	}
+
+	.idendity{
+		display: none;	
+	}
+
+	.artContainer{
+		margin-top: 30px !important;
+		margin-left: 0;
+	}
+
+	.nav-logo-container{
+		width: 52% !important;
+	}
+
+	.nav-link-container{
+		display: none;
+	}
+
+	.nav-logo-drop{
+		display: inline;
+	}
+
+	.nav-logo-drop .dropdown-menu{
+		left: -100px;
+		min-width: 100px;
+		font-size: 20px;
+		border-radius:20px;
+		background: -webkit-linear-gradient(#F0F0F0, #A3ADFA);
+	  	background: -o-linear-gradient(#F0F0F0, #A3ADFA); /* For Opera 11.1 to 12.0 */
+	  	background: -moz-linear-gradient(#F0F0F0, #A3ADFA);/* For Firefox 3.6 to 15 */
+	  	background: linear-gradient(#F0F0F0, #A3ADFA); /* Standard syntax */
+	}
+
+	.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+		color: #262626;
+		background-color: rgba(245, 239, 239, 0.7);
+		border-radius:20px;
+	}
+
+	.imageContainers {
+		margin-top: -45px;
+		padding: 5px 10px 8px 25px;
+	}
+
+
+ }
+
+
+
+@media only screen and (max-width:540px){
+
+	.artContainer{
+		margin-top: 30px !important;
+		margin-left: 0;
+	}
+
+	.idendityMe{
+		display: inline;
+	}
+
+	.idendity{
+		display: none;	
+	}
+
+    .weblinks li a{
+    	font-size: 10px;
+    }
+
+    .img-thumbnail-med{
+    	width: 150px;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:500px){
+
+	.artContainer{
+		margin-top: 30px !important;
+		margin-left: 0;
+	}
+
+	.idendityMe{
+		display: inline;
+	}
+
+	.idendity{
+		display: none;	
+	}
+
+    .weblinks li a{
+    	display: none;
+    }
+
+    .img-thumbnail-small{
+    	width: 80px;
+    	height: 40px;
+    }
+
+    .img-thumbnail-med{
+    	width: 140px;
+    }
+ }
+
+ @media only screen and (max-width:320px){
+
+ 	.idendityMe{
+		display: inline;
+	}
+
+	.idendity{
+		display: none;	
+	}
+
+	.artContainer{
+		margin-top: 30px !important;
+		margin-left: 0;
+	}
+
+    .weblinks li a,.imageContainers{
+    	display: none;
+    }
+
+    .img-thumbnail-small{
+    	width: 80px;
+    	height: 40px;
+    }
+
+    .img-thumbnail-med{
+    	width: 140px;
+    }
+ }
