@@ -1,0 +1,30 @@
+.blog main {
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 2em;
+  max-width: 1024px;
+}
+.blog main section {
+  margin: 2em 0 0;
+  border-top: 1px solid #777;
+  padding: 2em 0;
+}
+.blog main h2 {
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+.blog main .author {
+  color: #777;
+}
+.blog main .tags {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2em;
+}
+.blog main .desc {
+  margin: 1em 0;
+}
+.blog main img {
+  display: block;
+  margin: 0 auto;
+}
